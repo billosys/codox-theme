@@ -6,7 +6,7 @@ body {
 }
 
 a {
-    color: #337ab7;
+    color: #bf5a16;
     text-decoration: none;
 }
 
@@ -51,7 +51,7 @@ h3 > a:hover {
     left: 0;
     right: 0;
     height: 22px;
-    color: #f5f5f5;
+    color: #ebebeb;
     padding: 5px 7px;
 }
 
@@ -74,15 +74,15 @@ h3 > a:hover {
 }
 
 .sidebar.primary {
-    background: #1f283b;
-    border-right: solid 1px #1f283b;
+    background: #2b3e50;
+    border-right: solid 1px #2b3e50;
     left: 0;
     width: 250px;
     font-size: 110%;
 }
 
 .sidebar.secondary {
-    background: #2a364f;
+    background: #4e5d6c;
     border-right: solid 1px #d7d7d7;
     left: 251px;
     width: 200px;
@@ -103,7 +103,7 @@ h3 > a:hover {
 }
 
 #header {
-    background: #58852b;
+    background: #bf5a16;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
     z-index: 100;
 }
