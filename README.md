@@ -1,12 +1,14 @@
-# Clojang Codox Theme
+# Superhero Codox Theme
 
-This is a modern and responsive [codox][codox] theme developed for
-use by Clojang projects and based based on
-[codox-theme-rdash](https://github.com/xsc/codox-theme-rdash).
+*A Codox Theme for Bootswatch Superhero-themed Documentation*
 
-[![Clojars Theme](https://raw.githubusercontent.com/clojang/codox-theme/master/screenshots/screen-1-thumb.png)](https://raw.githubusercontent.com/clojang/codox-theme/master/screenshots/screen-1.png)
+This is a modern and responsive [codox][codox] theme developed for the BilloSystems [Timi application]() and based on the
+[Clojang codox-theme](https://github.com/clojang/codox-theme/).
 
-[![Clojars Theme with Code](https://raw.githubusercontent.com/clojang/codox-theme/master/screenshots/screen-2-thumb.png)](https://raw.githubusercontent.com/clojang/codox-theme/master/screenshots/screen-2.png)
+
+[![Superhero Theme](https://raw.githubusercontent.com/billosys/superhero-codox-theme/master/screenshots/screen-1-thumb.png)](https://raw.githubusercontent.com/billosys/superhero-codox-theme/master/screenshots/screen-1.png)
+
+[![Superhero Theme with Code](https://raw.githubusercontent.com/billosys/superhero-codox-theme/master/screenshots/screen-2-thumb.png)](https://raw.githubusercontent.com/billosys/superhero-codox-theme/master/screenshots/screen-2.png)
 
 Note that this needs codox ≥ 0.10.0.
 
@@ -17,12 +19,12 @@ Note that this needs codox ≥ 0.10.0.
 
 Add the following dependency to your `project.clj`:
 
-[![Clojars Project](https://img.shields.io/clojars/v/clojang/codox-theme.svg)](https://clojars.org/clojang/codox-theme)
+[![Clojars Project](https://img.shields.io/clojars/v/billosys/superhero-codox-theme.svg)](https://clojars.org/billosys/superhero-codox-theme)
 
 Then set the following:
 
 ```clojure
-:codox {:themes [:clojang]}
+:codox {:themes [:superhero]}
 ```
 
 For syntax highlighting capabilities, you'll need to activate Markdown rendering
@@ -30,17 +32,8 @@ via:
 
 ```clojure
 :codox {:metadata {:doc/format :markdown}
-        :themes [:clojang]}
+        :themes [:superhero]}
 ```
-
-
-## Examples
-
-- [clojang/jiface](https://clojang.github.io/jiface/)
-- [clojang/agent](https://clojang.github.io/agent)
-- [clojang/clojang](https://clojang.github.io/clojang)
-- [clojang/zhang-agent](https://clojang.github.io/zhang-agent)
-- [clojang/zhang](https://clojang.github.io/zhang)
 
 
 ## License
