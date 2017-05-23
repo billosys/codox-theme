@@ -2,7 +2,7 @@
  [[:head]
   [:append
    [:link {:rel "stylesheet", :type "text/css" :href "css/default.css"}]
-   [:link {:rel "stylesheet", :type "text/css" :href "highlight/atom-one-dark.css"}]
+   [:link {:rel "stylesheet", :type "text/css" :href "highlight/paraiso-dark.css"}]
    [:script {:type "text/javascript", :src "highlight/highlight.pack.js"}]
    [:script {:type "text/javascript", :src "js/jquery.min.js"}]
    [:script {:type "text/javascript", :src "js/page_effects.js"}]
@@ -11,12 +11,12 @@
   [:#header :h2]
   [:append
    " with the "
-   [:a {:href "https://github.com/clojang/codox-theme"} "Clojang UI"]
+   [:a {:href "https://github.com/billosys/superhero-codox-theme"} "Bootswatch Superhero for Codox"]
    " theme"]]
 
  :resources
  ["css/default.css"
-  "highlight/atom-one-dark.css"
+  "highlight/paraiso-dark.css"
   "highlight/highlight.pack.js"
   "js/jquery.min.js"
   "js/page_effects.js"]}
