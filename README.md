@@ -38,6 +38,8 @@ via:
 
 ## License
 
+Copyright &copy; 2017 BilloSystems, Ltd. Co.
+
 Copyright &copy; 2017 Duncan McGreggor
 
 Copyright &copy; 2016 Yannick Scherer
